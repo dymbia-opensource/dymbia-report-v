@@ -1,0 +1,23 @@
+input-files:
+  - report/front-matter/01-caratula.md
+  - report/front-matter/02-version-history.md
+  - report/front-matter/03-collaboration.md
+  - report/front-matter/04-student-outcome.md
+  - report/10-chapter-1-intro.md
+  - report/20-chapter-2-requirements.md
+  - report/30-chapter-3-specification.md
+  - report/40-chapter-4-design.md
+  - report/50-chapter-5-implementation.md
+  - report/60-conclusions.md
+  - report/99-bibliography.md
+  - annexes/annex-a-student-outcome.md
+  - annexes/annex-b-performance-report.md
+  - annexes/annex-c-videos.md
+
+file-scope: true
+resource-path: ['.', 'assets/img', 'assets/diagrams']
+output-file: dist/upc-pre-202620-1asi0729-dymbia-report-av1.pdf
+pdf-engine: xelatex
+number-sections: true
+toc: true
+toc-depth: 4
