@@ -6,6 +6,47 @@
 
 ## 1.2. Solution Profile
 ### 1.2.1 Antecedentes y problemática
+El sector agrario en el Perú constituye un pilar fundamental para la seguridad alimentaria, el empleo rural y la economía de exportación. No obstante, la pequeña y mediana agricultura enfrenta una profunda brecha estructural caracterizada por la escasa tecnificación de campo, la alta vulnerabilidad a eventos meteorológicos extremos, la informalidad en la gestión de costos operativos y la falta de mecanismos digitales accesibles para certificar el valor cualitativo de la cosecha. Esta situación golpea con particular severidad a dos de las cadenas agroalimentarias más representativas del país: la papa (cultivo emblemático andino) y el café (primer producto agrícola de exportación).
+Para sustentar la formulación del problema y la propuesta de valor, se aplica la técnica de análisis de las **5 W's y 2 H's** (*Who, What, Where, When, Why, How & How Much*):
+* **Who (¿Quiénes son los afectados?):**
+  La problemática impacta directamente a tres actores del ecosistema agrícola:
+    1. **Pequeños y medianos agricultores independientes:** Conductores de parcelas de 1 a 10 hectáreas que dependen de la agricultura familiar de subsistencia y comercialización local.
+    2. **Productores organizados y directivos de cooperativas/asociaciones:** Responsables de acopiar, estandarizar y comercializar la producción colectiva hacia mercados mayoristas y de exportación.
+    3. **Ingenieros agrónomos y asesores técnicos de campo:** Profesionales responsables del diagnóstico fitosanitario y la prescripción agronómica en múltiples parcelas dispersas geográficamente.
+
+* **What (¿Qué problema enfrentan?):**  
+  Pérdidas económicas recurrentes, merma de rendimiento de cosechas y sobrecostos en insumos derivados de:
+    1. La incapacidad de detectar a tiempo anomalías fisiológicas, deficiencias hídricas y plagas destructivas (como la roya amarilla en café o el gorgojo de los Andes en papa).
+    2. El desconocimiento del costo real de producción por unidad de comercialización formal (quintal de café o tonelada de papa), lo que genera ventas por debajo del punto de equilibrio financiero.
+    3. La falta de trazabilidad de origen y clasificación estandarizada (calibres en papa y perfiles de calidad/taza en café), impidiendo acceder a sobreprecios en nichos comerciales formales o de exportación.
+
+* **Where (¿Dónde ocurre el problema?):**  
+  En los principales valles y cuencas productoras del territorio peruano:
+    1. **Cadena de papa:** Zonas altoandinas situadas entre los 2,500 y 4,000 m s.n.m. en departamentos como Junín, Huánuco, Puno, Cusco, Ayacucho y Cajamarca.
+    2. **Cadena de café:** Valles de selva alta y ceja de selva en regiones como Cajamarca, Junín (Selva Central), San Martín, Amazonas y Cusco.
+
+* **When (¿Cuándo se manifiesta el problema?):**  
+  El problema se presenta a lo largo de todo el ciclo fenológico del cultivo y en la fase de liquidación comercial:
+    - **Fase vegetativa y de floración/tuberización:** Durante la ocurrencia de eventos climáticos extremos como heladas meteorológicas y sequías estacionales (intensificadas de mayo a agosto en la sierra), así como en picos de calor y humedad que detonan plagas fúngicas.
+    - **Fase de cosecha y poscosecha:** Al momento de negociar la producción con acopiadores e intermediarios informales, donde la ausencia de registros de costos y certificados de calidad obliga al productor a aceptar precios desfavorables.
+
+* **Why (¿Por qué ocurre esta situación?):**
+    - **Barreras económicas y de infraestructura:** Las soluciones convencionales de agricultura de precisión comercializadas en el país exigen la adquisición e instalación de sensores de humedad en tierra, estaciones meteorológicas locales y dispositivos IoT de alto costo, inaccesibles para el presupuesto del pequeño productor rural.
+    - **Gestión empírica y cuadernos físicos:** La administración del fundo se efectúa de manera manual en cuadernos de apuntes o de forma memorística, imposibilitando consolidar jornales, combustible y agroquímicos en un costo unitario por lote.
+    - **Falta de asistencia técnica continua:** Menos del 4% de las unidades productivas agropecuarias recibe asesoría técnica profesional continua, limitando la adopción de buenas prácticas de fertilización y manejo integrado de plagas.
+
+* **How (¿Cómo impacta el problema en las operaciones diarias?):**  
+  El deterioro ocurre de forma progresiva:
+    1. El productor detecta el estrés hídrico o el ataque biológico de manera visual y tardía, cuando el daño en el follaje ya es irreversible y ha castigado el volumen de la cosecha.
+    2. Para mitigar el daño, el productor aplica fertilizantes y plaguicidas de forma homogénea y reactiva a toda la parcela, disparando el gasto operativo y degradando la calidad del suelo.
+    3. En la venta, entrega sacos sin discriminación verificable de calibres o puntaje de taza, siendo castigado por el comprador final con deducciones arbitrarias sobre el peso y calidad.
+
+* **How Much (¿Cuánto representa cuantitativamente esta problemática?):**  
+  La magnitud del problema se evidencia en los datos de las fuentes sectoriales oficiales del Perú:
+    - **Extensión y dependencia climática de la papa:** En el Perú se registran más de 330,000 hectáreas sembradas anualmente de papa, de las cuales más del 90% se cultivan bajo régimen de secano (dependientes al 100% de lluvias) en zonas altoandinas, donde heladas y déficits hídricos generan mermas de hasta un 40% del rendimiento por hectárea ([MIDAGRI, 2023](https://www.gob.pe/midagri)).
+    - **Impacto socioeconómico en la caficultura:** Más de 223,000 familias dependen del café distribuido en más de 380,000 hectáreas ([Junta Nacional del Café, 2022](https://juntadelcafe.org.pe/)). La proliferación de plagas por variaciones térmicas y la falta de trazabilidad hacia la Unión Europea y Norteamérica desvalorizan el grano, impidiendo capturar el diferencial de precios que ofrecen los cafés de especialidad.
+    - **Brecha de tecnificación y asociatividad:** Según la Encuesta Nacional Agropecuaria (ENA), solo el 3.8% de los productores agropecuarios en el país recibe asistencia técnica especializada, apenas el 6.6% accede a programas de capacitación y el 93.3% no pertenece a ninguna organización agraria ([INEI, 2022](https://m.inei.gob.pe/prensa/noticias/334-de-los-productores-agropecuarios-del-pais-son-mujeres-14486/)), perpetuando la gestión informal y la venta a pérdida.
+
 ### 1.2.2 Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements
 #### 1.2.2.2. Lean UX Assumptions
