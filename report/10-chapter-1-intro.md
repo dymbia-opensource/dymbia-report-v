@@ -100,3 +100,17 @@ Planteamos que las siguientes capacidades del producto resolverán los problemas
 * **Lot-Level Cost Accounting Engine (Feature 2):** Un módulo de registro de gastos operativos calculará automáticamente el punto de equilibrio financiero por lote.
 * **Digital Harvest Quality Scoring & Certificate (Feature 3):** Una herramienta de clasificación y emisión de certificados digitales de calidad (calibres de papa y perfiles de taza de café) respaldará mejores precios de venta.
 * **Agronomic Prescription & Alert Dispatcher (Feature 4):** Un sistema de recomendaciones técnicas y alertas preventivas facilitará el seguimiento fitosanitario por parte de los asesores de campo.
+
+#### 1.2.2.3. Lean UX Hypothesis Statements
+
+* **Hypothesis Statement 1 (Satellite Health & Moisture Monitoring):**  
+  We believe we will achieve an active monthly retention rate above 70% during peak growing cycles If small and medium independent farmers Attain early detection of vegetative anomalies and water stress without purchasing field hardware With our satellite-based vegetation and moisture index monitoring dashboard.
+
+* **Hypothesis Statement 2 (Lot-Level Cost Accounting Engine):**  
+  We believe we will achieve a 12% conversion rate to cooperative subscription plans If agricultural producers and cooperative managers Attain transparent unit-cost tracking and financial break-even calculation per harvested lot With an intuitive operational expense logging and automated reporting engine.
+
+* **Hypothesis Statement 3 (Digital Harvest Quality Scoring & Certificate):**  
+  We believe we will achieve accelerated user acquisition through word-of-mouth If organized farmers Attain higher commercial price realization and defense against unfair quality discounts With a verifiable digital quality scoring and certification generator for tuber calibers and coffee cup profiles.
+
+* **Hypothesis Statement 4 (Agronomic Prescription & Alert Dispatcher):**  
+  We believe we will achieve institutional partnerships with regional agricultural cooperatives If field agronomists Attain a 40% increase in monitored acreage and improved recommendation follow-up With a centralized agronomic alert dispatcher and digital prescription manager.
