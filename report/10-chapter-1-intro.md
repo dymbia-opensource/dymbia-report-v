@@ -47,10 +47,113 @@ Para sustentar la formulación del problema y la propuesta de valor, se aplica l
     - **Impacto socioeconómico en la caficultura:** Más de 223,000 familias dependen del café distribuido en más de 380,000 hectáreas ([Junta Nacional del Café, 2022](https://juntadelcafe.org.pe/)). La proliferación de plagas por variaciones térmicas y la falta de trazabilidad hacia la Unión Europea y Norteamérica desvalorizan el grano, impidiendo capturar el diferencial de precios que ofrecen los cafés de especialidad.
     - **Brecha de tecnificación y asociatividad:** Según la Encuesta Nacional Agropecuaria (ENA), solo el 3.8% de los productores agropecuarios en el país recibe asistencia técnica especializada, apenas el 6.6% accede a programas de capacitación y el 93.3% no pertenece a ninguna organización agraria ([INEI, 2022](https://m.inei.gob.pe/prensa/noticias/334-de-los-productores-agropecuarios-del-pais-son-mujeres-14486/)), perpetuando la gestión informal y la venta a pérdida.
 
-### 1.2.2 Lean UX Process
+### 1.2.2. Lean UX Process
+
+El enfoque Lean UX permite validar de manera temprana las soluciones propuestas centrándose en el valor real entregado a los usuarios y al negocio. Mediante este marco de trabajo ágil, el equipo explicita de forma transparente la visión del modelo de negocio, formula hipótesis comprobables y minimiza el riesgo tecnológico y financiero en la gestión de cultivos críticos como la papa y el café en el territorio peruano.
+
 #### 1.2.2.1. Lean UX Problem Statements
+
+The current state of the Peruvian agricultural domain—specifically within the potato and specialty coffee value chains—has focused mainly on small and medium independent farmers, organized cooperative leaders, and field agricultural advisors who face high crop loss due to climatic anomalies, empirical operational cost management, and lack of verifiable crop quality certification. What existing products/services fail to address is an accessible, software-only precision agriculture platform that eliminates the necessity for expensive on-field IoT hardware while integrating satellite crop monitoring, unit cost tracking, and standardized harvest scoring. Our product/service will address this gap by providing an accessible web platform with satellite vegetative analysis, lot-level cost calculation, and digital quality certification. Our initial focus will be small and medium independent producers and cooperative leaders in Andean and high-jungle agricultural valleys. We’ll know we are successful when we see sustained active lot registration by agricultural producers, a measurable reduction in reported seasonal crop losses, and widespread adoption of digital cost records during commercial.
+
 #### 1.2.2.2. Lean UX Assumptions
+
+En esta sección se declaran los supuestos fundamentales del equipo sobre los que se construye la propuesta de valor. Bajo el marco de trabajo Lean UX, estos supuestos identifican las áreas de mayor riesgo e incertidumbre del negocio, los usuarios y el producto, sirviendo como base para formular las hipótesis de validación.
+
+##### Business Assumptions
+Como equipo asumimos y sostenemos las siguientes premisas sobre el negocio:
+* Existe una demanda insatisfecha por herramientas de agricultura digital accesibles en Perú que no requieran hardware IoT costoso.
+* El modelo de suscripción freemium y B2B es financieramente viable mediante planes escalonados para cooperativas y asesores técnicos, manteniendo un nivel base gratuito para pequeños productores.
+* Las cooperativas agrarias están dispuestas a pagar por software que estandarice la calidad del acopio y automatice la trazabilidad de sus socios.
+* El valor agronómico de las alertas tempranas compensará la resistencia cultural inicial hacia la adopción tecnológica en zonas rurales.
+
+##### Business Assumptions
+Como equipo asumimos y sostenemos las siguientes premisas sobre el negocio:
+* Existe una demanda insatisfecha por herramientas de agricultura digital accesibles en Perú que no requieran hardware IoT costoso.
+* El modelo de suscripción freemium y B2B es financieramente viable mediante planes escalonados para cooperativas y asesores técnicos, manteniendo un nivel base gratuito para pequeños productores.
+* Las cooperativas agrarias están dispuestas a pagar por software que estandarice la calidad del acopio y automatice la trazabilidad de sus socios.
+* El valor agronómico de las alertas tempranas compensará la resistencia cultural inicial hacia la adopción tecnológica en zonas rurales.
+
+##### Business Outcome Assumptions
+Esperamos validar el éxito del negocio a través de los siguientes resultados medibles:
+* Una tasa de retención mensual (MAU) superior al 70% durante las fases fenológicas críticas de siembra y cosecha.
+* Una tasa de conversión mínima del 12% de cuentas gratuitas a planes de suscripción de cooperativas en los primeros 6 meses.
+* El establecimiento de convenios o pruebas piloto con al menos 5 cooperativas de café y papa durante el primer año.
+* La reducción del costo de adquisición de clientes (CAC) apalancando la captación grupal a través de asociaciones comunales.
+
+##### User Assumptions
+Reconocemos los siguientes supuestos sobre las condiciones y necesidades de nuestros usuarios:
+* Los pequeños y medianos agricultores disponen de acceso recurrente a un teléfono móvil o navegador web (de forma directa o con apoyo de familiares y técnicos).
+* Los directivos de cooperativas necesitan consolidar datos de múltiples parcelas para planificar cosechas y negociar mejores condiciones de venta mayorista.
+* Los ingenieros agrónomos y asesores de campo precisan registrar diagnósticos y recetas técnicas de manera digital para optimizar sus visitas a parcelas dispersas.
+* Los productores agrícolas perciben injusticia en las deducciones de precio que aplican los intermediarios debido a la falta de sustento técnico de calidad.
+
+##### User Outcomes and Benefits Assumptions
+Proyectamos que los usuarios obtendrán los siguientes beneficios tangibles al interactuar con la solución:
+* Reducción de al menos un 25% en las pérdidas de cosecha gracias a la detección oportuna de estrés hídrico y anomalías en el follaje.
+* Conocimiento exacto del costo real de producción por quintal o hectárea, evitando ventas por debajo del punto de equilibrio financiero.
+* Disminución de más del 50% en el tiempo que las cooperativas invierten en consolidar manualmente los cuadernos de campo.
+* Capacidad de los asesores técnicos para supervisar un 40% más de hectáreas mediante la visualización satelital centralizada.
+
+##### Feature Assumptions
+Planteamos que las siguientes capacidades del producto resolverán los problemas y necesidades identificados:
+* **Satellite Health & Moisture Monitoring (Feature 1):** Un panel de índices de vegetación (NDVI) y humedad basado en satélites abiertos permitirá detectar anomalías sin sensores en tierra.
+* **Lot-Level Cost Accounting Engine (Feature 2):** Un módulo de registro de gastos operativos calculará automáticamente el punto de equilibrio financiero por lote.
+* **Digital Harvest Quality Scoring & Certificate (Feature 3):** Una herramienta de clasificación y emisión de certificados digitales de calidad (calibres de papa y perfiles de taza de café) respaldará mejores precios de venta.
+* **Agronomic Prescription & Alert Dispatcher (Feature 4):** Un sistema de recomendaciones técnicas y alertas preventivas facilitará el seguimiento fitosanitario por parte de los asesores de campo.
+
 #### 1.2.2.3. Lean UX Hypothesis Statements
+
+* **Hypothesis Statement 1 (Satellite Health & Moisture Monitoring):**  
+  We believe we will achieve an active monthly retention rate above 70% during peak growing cycles If small and medium independent farmers Attain early detection of vegetative anomalies and water stress without purchasing field hardware With our satellite-based vegetation and moisture index monitoring dashboard.
+
+* **Hypothesis Statement 2 (Lot-Level Cost Accounting Engine):**  
+  We believe we will achieve a 12% conversion rate to cooperative subscription plans If agricultural producers and cooperative managers Attain transparent unit-cost tracking and financial break-even calculation per harvested lot With an intuitive operational expense logging and automated reporting engine.
+
+* **Hypothesis Statement 3 (Digital Harvest Quality Scoring & Certificate):**  
+  We believe we will achieve accelerated user acquisition through word-of-mouth If organized farmers Attain higher commercial price realization and defense against unfair quality discounts With a verifiable digital quality scoring and certification generator for tuber calibers and coffee cup profiles.
+
+* **Hypothesis Statement 4 (Agronomic Prescription & Alert Dispatcher):**  
+  We believe we will achieve institutional partnerships with regional agricultural cooperatives If field agronomists Attain a 40% increase in monitored acreage and improved recommendation follow-up With a centralized agronomic alert dispatcher and digital prescription manager.
+
 #### 1.2.2.4. Lean UX Canvas
 
+A continuación, se presenta el Lean UX Canvas que consolida las decisiones estratégicas de negocio, usuarios, funcionalidades e hipótesis priorizadas para el desarrollo de la solución:
+
+![Lean UX Canvas](../assets/img/lean-ux-canvas.png)
+
 ## 1.3. Segmentos objetivo
+
+El éxito de la solución propuesta radica en el entendimiento profundo de los actores clave que interactúan en la cadena de valor de la papa y el café en el Perú. A continuación, se describen de manera detallada los tres segmentos objetivo identificados, delimitando sus perfiles demográficos, necesidades operativas y el sustento estadístico oficial que valida su relevancia en el mercado nacional:
+
+### 1. Pequeños y medianos agricultores independientes de papa y café
+*   **Descripción del segmento:** Productores familiares e independientes que conducen parcelas de mediana y pequeña escala (generalmente de 1 a 10 hectáreas). Dependen de la agricultura de subsistencia o comercialización en mercados locales. Carecen de herramientas de tecnificación de campo y gestionan sus costos de forma empírica en cuadernos físicos o mediante registros memorísticos.
+*   **Perfil demográfico:**
+  *   **Edad promedio:** Entre 20 y 60 años.
+  *   **Ubicación geográfica:** Zonas andinas (Junín, Cusco, Ayacucho, Apurímac) para papa; y ceja de selva (Pasco, Selva Central, San Martín, Cajamarca) para café.
+  *   **Nivel educativo:** Primaria o secundaria (completa o incompleta).
+  *   **Acceso tecnológico:** Teléfonos inteligentes con conectividad móvil intermitente (redes 3G/4G) y uso habitual de aplicaciones de mensajería (WhatsApp).
+*   **Sustento estadístico oficial:**
+  *   En el Perú se siembran más de **330,000 hectáreas de papa** anualmente, de las cuales más del **90%** se cultivan bajo secano (dependencia total de lluvias), lo que expone a los agricultores independientes a pérdidas extremas de hasta un **40% de su rendimiento** debido a anomalías climáticas (heladas y sequías) ([MIDAGRI, 2023](https://www.gob.pe/midagri)).
+  *   Según la Encuesta Nacional Agropecuaria, la brecha de tecnificación es severa: el **93.3%** de los productores independientes en el país trabaja de manera informal y no pertenece a ninguna organización agraria ([INEI, 2022](https://m.inei.gob.pe/prensa/noticias/334-de-los-productores-agropecuarios-del-pais-son-mujeres-14486/)).
+
+### 2. Productores organizados y directivos de cooperativas agrícolas
+*   **Descripción del segmento:** Gerentes generales, jefes de acopio, directores comerciales y líderes de asociaciones agrarias. Tienen la responsabilidad de centralizar la producción de decenas de socios, estandarizar los niveles de calidad para la venta mayorista, y certificar el origen del cultivo para cumplir con las regulaciones de los mercados nacionales y de exportación.
+*   **Perfil demográfico:**
+  *   **Edad promedio:** Entre 35 y 55 años.
+  *   **Ubicación geográfica:** Oficinas administrativas de cooperativas en cabeceras de cuenca o valles agrícolas principales.
+  *   **Nivel educativo:** Técnico o universitario (Administración, Ingeniería Agrónoma, Comercio Exterior).
+  *   **Acceso tecnológico:** Computadora de escritorio/laptop en oficina con conexión estable de internet, navegación diaria en navegadores web y uso de hojas de cálculo (Excel) para control financiero.
+*   **Sustento estadístico oficial:**
+  *   La caficultura en el Perú sostiene a más de **223,000 familias** distribuidas en más de **380,000 hectáreas** ([Junta Nacional del Café, 2022](https://juntadelcafe.org.pe/)).
+  *   Los directivos de estas cooperativas se enfrentan a un mercado global altamente competitivo e informal; las exigencias de trazabilidad ambiental de la Unión Europea y la falta de certificaciones estandarizadas en origen desvalorizan el grano peruano, impidiendo acceder a los sobreprecios de especialidad que los mercados internacionales ofrecen por atributos cualitativos.
+
+### 3. Ingenieros agrónomos y asesores técnicos de campo
+*   **Descripción del segmento:** Profesionales independientes o contratados por cooperativas y ONGs dedicados al extensionismo agrícola, diagnóstico fitosanitario, prescripción de fertilización y asistencia técnica en el campo. Tienen el reto de supervisar decenas de parcelas dispersas geográficamente, lo que limita su capacidad de dar un seguimiento oportuno en fases críticas.
+*   **Perfil demográfico:**
+  *   **Edad promedio:** Entre 25 y 50 años.
+  *   **Ubicación geográfica:** Movilización constante entre valles agrícolas y fundos rurales.
+  *   **Nivel educativo:** Universitario completo (Ingeniería Agrónoma, Agrícola o Forestal).
+  *   **Acceso tecnológico:** Smartphone de gama media/alta con GPS integrado, uso de aplicaciones de mapas y herramientas web para redactar informes de visitas de campo.
+*   **Sustento estadístico oficial:**
+  *   En el territorio nacional existe una alarmante brecha en la transferencia de conocimiento: **solo el 3.8% de los productores agrícolas recibe asistencia técnica especializada** y apenas el **6.6%** accede a capacitaciones formales ([INEI, 2022](https://m.inei.gob.pe/prensa/noticias/334-de-los-productores-agropecuarios-del-pais-son-mujeres-14486/)).
+  *   Esta bajísima tasa de cobertura obliga a los pocos asesores de campo activos a optimizar drásticamente sus tiempos de traslado, requiriendo tecnologías de monitoreo remoto satelital que les permitan diagnosticar anomalías fitosanitarias de forma preventiva en múltiples parcelas dispersas sin necesidad de realizar visitas físicas recurrentes.
