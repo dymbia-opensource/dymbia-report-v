@@ -1,8 +1,28 @@
 # Capítulo I: Introducción
 
 ## 1.1. Startup Profile
+
 ### 1.1.1. Descripción de la Startup
+
+**Nombre de la Startup:** Dymbia  
+**Nombre del Producto:** SumaqAgro
+
+**Dymbia** es una iniciativa tecnológica enfocada en cerrar la brecha de digitalización y tecnificación en el sector agroalimentario peruano, orientándose prioritariamente a los pequeños y medianos productores, cooperativas agrarias y asesores técnicos en las cadenas de papa andina y café de especialidad. Nuestra solución consiste en una plataforma web integral de agricultura de precisión accesible que prescinde por completo de sensores de campo costosos o infraestructura IoT física en tierra, apoyándose en la integración de datos abiertos de observación satelital, cálculo de costos de producción unitarios y certificación digital de calidad de cosecha.
+
+* **Misión:** Desarrollar e implementar soluciones de software de monitoreo agronómico y gestión económica accesibles que permitan a los productores agrarios independientes y asociados reducir pérdidas por eventos meteorológicos extremos, gestionar sus fundos de forma rentable y respaldar el valor cualitativo de sus productos frente a mercados locales y de exportación.
+* **Visión:** Consolidarnos como la plataforma web líder en analítica agronómica satelital y certificación digital en los valles altoandinos y zonas de selva alta del Perú, transformando progresivamente las cadenas productivas mediante tecnología abierta, accesible e inclusiva.
+
+---
+
 ### 1.1.2. Perfiles de integrantes del equipo
+
+| Fotografía | Integrante | Carrera y Resumen Profesional |
+| :---: | :--- | :--- |
+| <img src="../assets/img/team/duarte-drago.png" alt="Drago Derick Duarte Ruffner" width="110" style="border-radius: 8px;"/> | **Apellidos y Nombres:**<br>Duarte Ruffner, Drago Derick<br><br>**Código:**<br>U202315120 | **Carrera:**<br>Ingeniería de Software<br><br>**Conocimientos técnicos y habilidades:**<br>[Redactar aquí: lenguajes de programación, herramientas/frameworks, áreas de interés técnico y aporte específico al desarrollo de la solución]. |
+| <img src="../assets/img/team/sanca-miguel.png" alt="Miguel Sanca Condori" width="110" style="border-radius: 8px;"/> | **Apellidos y Nombres:**<br>Sanca Condori, Miguel<br><br>**Código:**<br>U20241E057 | **Carrera:**<br>Ingeniería de Software<br><br>**Conocimientos técnicos y habilidades:**<br>[Redactar aquí: lenguajes de programación, herramientas/frameworks, áreas de interés técnico y aporte específico al desarrollo de la solución]. |
+| <img src="../assets/img/team/solorzano-benjamin.png" alt="Benjamin Solorzano Sullca" width="110" style="border-radius: 8px;"/> | **Apellidos y Nombres:**<br>Solorzano Sullca, Benjamin<br><br>**Código:**<br>U202422816 | **Carrera:**<br>Ingeniería de Software<br><br>**Conocimientos técnicos y habilidades:**<br>[Redactar aquí: lenguajes de programación, herramientas/frameworks, áreas de interés técnico y aporte específico al desarrollo de la solución]. |
+| <img src="../assets/img/team/tejada-yamil.png" alt="Yamil Jared Tejada Pumacayo" width="110" style="border-radius: 8px;"/> | **Apellidos y Nombres:**<br>Tejada Pumacayo, Yamil Jared<br><br>**Código:**<br>U20241H037 | **Carrera:**<br>Ingeniería de Software<br><br>**Conocimientos técnicos y habilidades:**<br>Tengo 20 años y soy estudiante de Ingeniería de Software. Me considero una persona empática, colaborativa y siempre dispuesta a aprender y sumar al equipo. Me entusiasma explorar las nuevas posibilidades que abre la inteligencia artificial y disfruto del desarrollo tanto en frontend como en backend. Cuento con experiencia en tecnologías como Java, Angular, Python y bases de datos relacionales como PostgreSQL. En este proyecto, busco aportar en la construcción de una plataforma web intuitiva, robusta y con valor real para los usuarios. |
+| <img src="../assets/img/team/vargas-jose.png" alt="Jose Carlos Vargas Enriquez" width="110" style="border-radius: 8px;"/> | **Apellidos y Nombres:**<br>Vargas Enriquez, Jose Carlos<br><br>**Código:**<br>U202422128 | **Carrera:**<br>Ingeniería de Software<br><br>**Conocimientos técnicos y habilidades:**<br>[Redactar aquí: lenguajes de programación, herramientas/frameworks, áreas de interés técnico y aporte específico al desarrollo de la solución]. |
 
 ## 1.2. Solution Profile
 ### 1.2.1 Antecedentes y problemática
@@ -58,13 +78,6 @@ The current state of the Peruvian agricultural domain—specifically within the 
 #### 1.2.2.2. Lean UX Assumptions
 
 En esta sección se declaran los supuestos fundamentales del equipo sobre los que se construye la propuesta de valor. Bajo el marco de trabajo Lean UX, estos supuestos identifican las áreas de mayor riesgo e incertidumbre del negocio, los usuarios y el producto, sirviendo como base para formular las hipótesis de validación.
-
-##### Business Assumptions
-Como equipo asumimos y sostenemos las siguientes premisas sobre el negocio:
-* Existe una demanda insatisfecha por herramientas de agricultura digital accesibles en Perú que no requieran hardware IoT costoso.
-* El modelo de suscripción freemium y B2B es financieramente viable mediante planes escalonados para cooperativas y asesores técnicos, manteniendo un nivel base gratuito para pequeños productores.
-* Las cooperativas agrarias están dispuestas a pagar por software que estandarice la calidad del acopio y automatice la trazabilidad de sus socios.
-* El valor agronómico de las alertas tempranas compensará la resistencia cultural inicial hacia la adopción tecnológica en zonas rurales.
 
 ##### Business Assumptions
 Como equipo asumimos y sostenemos las siguientes premisas sobre el negocio:
