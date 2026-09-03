@@ -244,6 +244,62 @@ Para asegurar una captura de datos estructurada y de alto valor, se han elaborad
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
+Una vez identificados los actores del mercado, el siguiente paso es definir cómo SumaqAgro se abrirá paso entre ellos. No basta con conocer a la competencia; necesitamos un plan de acción que aproveche nuestras ventajas y blinde nuestras debilidades. Para lograrlo, utilizamos la Matriz CAME, una herramienta que nos permite "traducir" el análisis FODA previo en decisiones estratégicas reales.
+
+A través de este análisis, establecemos tácticas ofensivas para explotar nuestra especialización en el mercado peruano agro-exportador (papa y café), y acciones de supervivencia para mitigar los riesgos de ser una startup emergente. Este enfoque asegura que cada funcionalidad que codifiquemos cumpla un propósito estratégico en el mercado.
+
+**Matriz CAME para el desarrollo de estrategias basándonos en el análisis FODA**
+
+<table border="1" cellpadding="8" cellspacing="0" style="width: 100%; border-collapse: collapse; font-family: sans-serif;">
+  <tr>
+    <th style="text-align: left; width: 30%;">Análisis FODA cruzado</th>
+    <th style="text-align: left; width: 35%;">Oportunidades (O)</th>
+    <th style="text-align: left; width: 35%;">Amenazas (A)</th>
+  </tr>
+  <tr>
+    <td>
+      <b>Fortalezas (F)</b><br><br>
+      1. Independencia total de hardware en campo (software-only).<br>
+      2. Plataforma unificada: analítica satelital, costos por lote y certificación en una sola herramienta.<br>
+      3. Arquitectura web ligera optimizada para zonas de baja conectividad (3G).<br>
+      4. Localización absoluta orientada al productor andino (papa) y de selva alta (café).
+    </td>
+    <td>
+      <b>Estrategia (FO) — Estrategias Ofensivas</b><br><br>
+      1. Promover el generador de certificados digitales de calidad como la solución accesible para cumplir con las nuevas normativas de trazabilidad exportadora de la UE (F2, O2).<br>
+      2. Afianzar el modelo de distribución B2B2C vendiendo el motor de costos a directivos de cooperativas, capturando masivamente a agricultores desatendidos técnicamente (F1, O4).<br>
+      3. Ejecutar campañas de marketing resaltando la ligereza de la web app frente a las plataformas de la competencia, que requieren descargas pesadas o computadoras de gama alta (F3, O3).
+    </td>
+    <td>
+      <b>Estrategia (FA) — Estrategias Defensivas</b><br><br>
+      1. Desplegar agresivamente el plan Freemium, permitiendo usar el satélite sin costo para 1 lote, derribando la barrera de desconfianza y resistencia al cambio rural (F1, A1).<br>
+      2. Reforzar la propuesta de valor centrada en parámetros ultra-locales (alertas de gorgojo/roya, calibres del MIDAGRI) para blindar el mercado frente a la llegada de plataformas internacionales genéricas (F4, A3).<br>
+      3. Implementar un módulo educativo offline en la app para capacitar sobre el valor real de digitalizar los cuadernos de campo (F2, A1).
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>Debilidades (D)</b><br><br>
+      1. Marca emergente con presupuesto comercial limitado frente a transnacionales.<br>
+      2. Dependencia tecnológica de APIs satelitales externas.<br>
+      3. Ausencia de aplicación móvil nativa (solo web responsiva en etapas iniciales).<br>
+      4. Brecha inicial de datos históricos del cultivo.
+    </td>
+    <td>
+      <b>Estrategia (DO) — Reorientación</b><br><br>
+      1. Aprovechar a las cooperativas agrícolas como un "caballo de Troya" comercial para diluir el costo de adquisición de usuarios individuales, compensando el bajo presupuesto de marketing (D1, O4).<br>
+      2. Mitigar la falta de aplicación nativa implementando tecnologías de almacenamiento en caché en la Web App (Angular), permitiendo registro de jornales offline en la sierra (D3, O3).<br>
+      3. Utilizar las pruebas Lean UX tempranas para generar casos de éxito y testimonios publicables que doten de autoridad y validen la herramienta frente a nuevos socios (D1, O1).
+    </td>
+    <td>
+      <b>Estrategia (DA) — Supervivencia</b><br><br>
+      1. Diseñar el backend (Spring Boot) con un patrón de adaptador (Adapter Pattern) que soporte a múltiples proveedores de imágenes satelitales como respaldo (fallback) en caso de que una API externa falle o cambie su política gratuita (D2, A4).<br>
+      2. Proteger agresivamente el núcleo financiero (motor de costos) como propuesta irreemplazable, ya que incluso si hay nubosidad severa que bloquee satélites, el productor siga dependiendo de la contabilidad (D2, A2).<br>
+      3. Evitar entrar a una guerra de precios directos. Posicionar la plataforma exclusivamente por su valor integrado hasta ganar madurez de datos e ingresos (D1, A3).
+    </td>
+  </tr>
+</table>
+
 ## 2.2. Entrevistas
 ### 2.2.1. Diseño de entrevistas
 ### 2.2.2. Registro de entrevistas
