@@ -58,3 +58,45 @@ The current state of the Peruvian agricultural domain—specifically within the 
 #### 1.2.2.2. Lean UX Assumptions
 
 En esta sección se declaran los supuestos fundamentales del equipo sobre los que se construye la propuesta de valor. Bajo el marco de trabajo Lean UX, estos supuestos identifican las áreas de mayor riesgo e incertidumbre del negocio, los usuarios y el producto, sirviendo como base para formular las hipótesis de validación.
+
+##### Business Assumptions
+Como equipo asumimos y sostenemos las siguientes premisas sobre el negocio:
+* Existe una demanda insatisfecha por herramientas de agricultura digital accesibles en Perú que no requieran hardware IoT costoso.
+* El modelo de suscripción freemium y B2B es financieramente viable mediante planes escalonados para cooperativas y asesores técnicos, manteniendo un nivel base gratuito para pequeños productores.
+* Las cooperativas agrarias están dispuestas a pagar por software que estandarice la calidad del acopio y automatice la trazabilidad de sus socios.
+* El valor agronómico de las alertas tempranas compensará la resistencia cultural inicial hacia la adopción tecnológica en zonas rurales.
+
+##### Business Assumptions
+Como equipo asumimos y sostenemos las siguientes premisas sobre el negocio:
+* Existe una demanda insatisfecha por herramientas de agricultura digital accesibles en Perú que no requieran hardware IoT costoso.
+* El modelo de suscripción freemium y B2B es financieramente viable mediante planes escalonados para cooperativas y asesores técnicos, manteniendo un nivel base gratuito para pequeños productores.
+* Las cooperativas agrarias están dispuestas a pagar por software que estandarice la calidad del acopio y automatice la trazabilidad de sus socios.
+* El valor agronómico de las alertas tempranas compensará la resistencia cultural inicial hacia la adopción tecnológica en zonas rurales.
+
+##### Business Outcome Assumptions
+Esperamos validar el éxito del negocio a través de los siguientes resultados medibles:
+* Una tasa de retención mensual (MAU) superior al 70% durante las fases fenológicas críticas de siembra y cosecha.
+* Una tasa de conversión mínima del 12% de cuentas gratuitas a planes de suscripción de cooperativas en los primeros 6 meses.
+* El establecimiento de convenios o pruebas piloto con al menos 5 cooperativas de café y papa durante el primer año.
+* La reducción del costo de adquisición de clientes (CAC) apalancando la captación grupal a través de asociaciones comunales.
+
+##### User Assumptions
+Reconocemos los siguientes supuestos sobre las condiciones y necesidades de nuestros usuarios:
+* Los pequeños y medianos agricultores disponen de acceso recurrente a un teléfono móvil o navegador web (de forma directa o con apoyo de familiares y técnicos).
+* Los directivos de cooperativas necesitan consolidar datos de múltiples parcelas para planificar cosechas y negociar mejores condiciones de venta mayorista.
+* Los ingenieros agrónomos y asesores de campo precisan registrar diagnósticos y recetas técnicas de manera digital para optimizar sus visitas a parcelas dispersas.
+* Los productores agrícolas perciben injusticia en las deducciones de precio que aplican los intermediarios debido a la falta de sustento técnico de calidad.
+
+##### User Outcomes and Benefits Assumptions
+Proyectamos que los usuarios obtendrán los siguientes beneficios tangibles al interactuar con la solución:
+* Reducción de al menos un 25% en las pérdidas de cosecha gracias a la detección oportuna de estrés hídrico y anomalías en el follaje.
+* Conocimiento exacto del costo real de producción por quintal o hectárea, evitando ventas por debajo del punto de equilibrio financiero.
+* Disminución de más del 50% en el tiempo que las cooperativas invierten en consolidar manualmente los cuadernos de campo.
+* Capacidad de los asesores técnicos para supervisar un 40% más de hectáreas mediante la visualización satelital centralizada.
+
+##### Feature Assumptions
+Planteamos que las siguientes capacidades del producto resolverán los problemas y necesidades identificados:
+* **Satellite Health & Moisture Monitoring (Feature 1):** Un panel de índices de vegetación (NDVI) y humedad basado en satélites abiertos permitirá detectar anomalías sin sensores en tierra.
+* **Lot-Level Cost Accounting Engine (Feature 2):** Un módulo de registro de gastos operativos calculará automáticamente el punto de equilibrio financiero por lote.
+* **Digital Harvest Quality Scoring & Certificate (Feature 3):** Una herramienta de clasificación y emisión de certificados digitales de calidad (calibres de papa y perfiles de taza de café) respaldará mejores precios de venta.
+* **Agronomic Prescription & Alert Dispatcher (Feature 4):** Un sistema de recomendaciones técnicas y alertas preventivas facilitará el seguimiento fitosanitario por parte de los asesores de campo.
