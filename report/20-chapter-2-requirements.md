@@ -329,6 +329,166 @@ Se elaboraron guiones semiestructurados adaptados a las necesidades y contextos 
 - Cuando visita un campo después de un evento climático extremo, ¿cómo estima visualmente el porcentaje de daño o estrés hídrico para emitir un informe?
 
 ### 2.2.2. Registro de entrevistas
+
+**Segmento 1: Pequeños y medianos agricultores independientes de papa y café**
+
+<table border="1" cellpadding="8" cellspacing="0" style="width: 100%; border-collapse: collapse;">
+  <tr><th colspan="2" style="text-align: left;">Entrevista #1</th></tr>
+  <tr><td>Nombre</td><td> name </td></tr>
+  <tr><td>Apellidos</td><td> apellido </td></tr>
+  <tr><td>Edad</td><td>  </td></tr>
+  <tr><td>Distrito</td><td> distrito </td></tr>
+  <tr><td>Evidencia</td><td><img src="../assets/img/chapter-II/interview-segment-two-02-nombre" alt="Entrevista - name" width="420"/></td></tr>
+  <tr><td>Link</td><td> link </td></tr>
+  <tr><td>Timing donde inicia la entrevista</td><td> min</td></tr>
+  <tr><td>Duración de la entrevista</td><td> min</td></tr>
+  <tr><td>Resumen</td><td>  .<br><br>
+  <b>Comportamiento y necesidades:</b>
+  .<br><br>
+  <b>Tecnología, marcas y canales:</b>
+  .</td></tr>
+</table>
+
+<table border="1" cellpadding="8" cellspacing="0" style="width: 100%; border-collapse: collapse;">
+  <tr><th colspan="2" style="text-align: left;">Entrevista #2</th></tr>
+  <tr><td>Nombre</td><td> name </td></tr>
+  <tr><td>Apellidos</td><td> apellido </td></tr>
+  <tr><td>Edad</td><td>  </td></tr>
+  <tr><td>Distrito</td><td> distrito </td></tr>
+  <tr><td>Evidencia</td><td><img src="../assets/img/chapter-II/interview-segment-two-02-nombre" alt="Entrevista - name" width="420"/></td></tr>
+  <tr><td>Link</td><td> link </td></tr>
+  <tr><td>Timing donde inicia la entrevista</td><td> min</td></tr>
+  <tr><td>Duración de la entrevista</td><td> min</td></tr>
+  <tr><td>Resumen</td><td>  .<br><br>
+  <b>Comportamiento y necesidades:</b>
+  .<br><br>
+  <b>Tecnología, marcas y canales:</b>
+  .</td></tr>
+</table>
+
+<table border="1" cellpadding="8" cellspacing="0" style="width: 100%; border-collapse: collapse;">
+  <tr><th colspan="2" style="text-align: left;">Entrevista #3</th></tr>
+  <tr><td>Nombre</td><td> name </td></tr>
+  <tr><td>Apellidos</td><td> apellido </td></tr>
+  <tr><td>Edad</td><td>  </td></tr>
+  <tr><td>Distrito</td><td> distrito </td></tr>
+  <tr><td>Evidencia</td><td><img src="../assets/img/chapter-II/interview-segment-two-02-nombre" alt="Entrevista - name" width="420"/></td></tr>
+  <tr><td>Link</td><td> link </td></tr>
+  <tr><td>Timing donde inicia la entrevista</td><td> min</td></tr>
+  <tr><td>Duración de la entrevista</td><td> min</td></tr>
+  <tr><td>Resumen</td><td>  .<br><br>
+  <b>Comportamiento y necesidades:</b>
+  .<br><br>
+  <b>Tecnología, marcas y canales:</b>
+  .</td></tr>
+</table>
+
+**Segmento 2:  Productores organizados y directivos de cooperativas agrícolas**
+
+<table border="1" cellpadding="8" cellspacing="0" style="width: 100%; border-collapse: collapse;">
+  <tr><th colspan="2" style="text-align: left;">Entrevista #1</th></tr>
+  <tr><td>Nombre</td><td> name </td></tr>
+  <tr><td>Apellidos</td><td> apellido </td></tr>
+  <tr><td>Edad</td><td>  </td></tr>
+  <tr><td>Distrito</td><td> distrito </td></tr>
+  <tr><td>Evidencia</td><td><img src="../assets/img/chapter-II/interview-segment-two-02-nombre" alt="Entrevista - name" width="420"/></td></tr>
+  <tr><td>Link</td><td> link </td></tr>
+  <tr><td>Timing donde inicia la entrevista</td><td> min</td></tr>
+  <tr><td>Duración de la entrevista</td><td> min</td></tr>
+  <tr><td>Resumen</td><td>  .<br><br>
+  <b>Comportamiento y necesidades:</b>
+  .<br><br>
+  <b>Tecnología, marcas y canales:</b>
+  .</td></tr>
+</table>
+
+<table border="1" cellpadding="8" cellspacing="0" style="width: 100%; border-collapse: collapse;">
+  <tr><th colspan="2" style="text-align: left;">Entrevista #2</th></tr>
+  <tr><td>Nombre</td><td> name </td></tr>
+  <tr><td>Apellidos</td><td> apellido </td></tr>
+  <tr><td>Edad</td><td>  </td></tr>
+  <tr><td>Distrito</td><td> distrito </td></tr>
+  <tr><td>Evidencia</td><td><img src="../assets/img/chapter-II/interview-segment-two-02-nombre" alt="Entrevista - name" width="420"/></td></tr>
+  <tr><td>Link</td><td> link </td></tr>
+  <tr><td>Timing donde inicia la entrevista</td><td> min</td></tr>
+  <tr><td>Duración de la entrevista</td><td> min</td></tr>
+  <tr><td>Resumen</td><td>  .<br><br>
+  <b>Comportamiento y necesidades:</b>
+  .<br><br>
+  <b>Tecnología, marcas y canales:</b>
+  .</td></tr>
+</table>
+
+<table border="1" cellpadding="8" cellspacing="0" style="width: 100%; border-collapse: collapse;">
+  <tr><th colspan="2" style="text-align: left;">Entrevista #3</th></tr>
+  <tr><td>Nombre</td><td>  </td></tr>
+  <tr><td>Apellidos</td><td>  </td></tr>
+  <tr><td>Edad</td><td>  </td></tr>
+  <tr><td>Distrito</td><td> distrito </td></tr>
+  <tr><td>Evidencia</td><td><img src="../assets/img/chapter-II/interview-segment-two-foto" alt="Entrevista - nombre" width="420"/></td></tr>
+  <tr><td>Link</td><td> link </td></tr>
+  <tr><td>Timing donde inicia la entrevista</td><td> min</td></tr>
+  <tr><td>Duración de la entrevista</td><td> min</td></tr>
+  <tr><td>Resumen</td><td> .<br><br>
+  <b>Comportamiento y necesidades:</b>
+   .<br><br>
+  <b>Tecnología, marcas y canales:</b>
+   .</td></tr>
+</table>
+
+**Segmento 3: Ingenieros agrónomos y asesores técnicos de campo**
+
+<table border="1" cellpadding="8" cellspacing="0" style="width: 100%; border-collapse: collapse;">
+  <tr><th colspan="2" style="text-align: left;">Entrevista #1</th></tr>
+  <tr><td>Nombre</td><td> name </td></tr>
+  <tr><td>Apellidos</td><td> apellido </td></tr>
+  <tr><td>Edad</td><td>  </td></tr>
+  <tr><td>Distrito</td><td> distrito </td></tr>
+  <tr><td>Evidencia</td><td><img src="../assets/img/chapter-II/interview-segment-two-02-nombre" alt="Entrevista - name" width="420"/></td></tr>
+  <tr><td>Link</td><td> link </td></tr>
+  <tr><td>Timing donde inicia la entrevista</td><td> min</td></tr>
+  <tr><td>Duración de la entrevista</td><td> min</td></tr>
+  <tr><td>Resumen</td><td>  .<br><br>
+  <b>Comportamiento y necesidades:</b>
+  .<br><br>
+  <b>Tecnología, marcas y canales:</b>
+  .</td></tr>
+</table>
+
+<table border="1" cellpadding="8" cellspacing="0" style="width: 100%; border-collapse: collapse;">
+  <tr><th colspan="2" style="text-align: left;">Entrevista #2</th></tr>
+  <tr><td>Nombre</td><td> name </td></tr>
+  <tr><td>Apellidos</td><td> apellido </td></tr>
+  <tr><td>Edad</td><td>  </td></tr>
+  <tr><td>Distrito</td><td> distrito </td></tr>
+  <tr><td>Evidencia</td><td><img src="../assets/img/chapter-II/interview-segment-two-02-nombre" alt="Entrevista - name" width="420"/></td></tr>
+  <tr><td>Link</td><td> link </td></tr>
+  <tr><td>Timing donde inicia la entrevista</td><td> min</td></tr>
+  <tr><td>Duración de la entrevista</td><td> min</td></tr>
+  <tr><td>Resumen</td><td>  .<br><br>
+  <b>Comportamiento y necesidades:</b>
+  .<br><br>
+  <b>Tecnología, marcas y canales:</b>
+  .</td></tr>
+</table>
+
+<table border="1" cellpadding="8" cellspacing="0" style="width: 100%; border-collapse: collapse;">
+  <tr><th colspan="2" style="text-align: left;">Entrevista #3</th></tr>
+  <tr><td>Nombre</td><td>  </td></tr>
+  <tr><td>Apellidos</td><td>  </td></tr>
+  <tr><td>Edad</td><td>  </td></tr>
+  <tr><td>Distrito</td><td> distrito </td></tr>
+  <tr><td>Evidencia</td><td><img src="../assets/img/chapter-II/interview-segment-two-foto" alt="Entrevista - nombre" width="420"/></td></tr>
+  <tr><td>Link</td><td> link </td></tr>
+  <tr><td>Timing donde inicia la entrevista</td><td> min</td></tr>
+  <tr><td>Duración de la entrevista</td><td> min</td></tr>
+  <tr><td>Resumen</td><td> .<br><br>
+  <b>Comportamiento y necesidades:</b>
+   .<br><br>
+  <b>Tecnología, marcas y canales:</b>
+   .</td></tr>
+</table>
+
 ### 2.2.3. Análisis de entrevistas
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
