@@ -114,3 +114,9 @@ Planteamos que las siguientes capacidades del producto resolverán los problemas
 
 * **Hypothesis Statement 4 (Agronomic Prescription & Alert Dispatcher):**  
   We believe we will achieve institutional partnerships with regional agricultural cooperatives If field agronomists Attain a 40% increase in monitored acreage and improved recommendation follow-up With a centralized agronomic alert dispatcher and digital prescription manager.
+
+#### 1.2.2.4. Lean UX Canvas
+
+A continuación, se presenta el Lean UX Canvas que consolida las decisiones estratégicas de negocio, usuarios, funcionalidades e hipótesis priorizadas para el desarrollo de la solución:
+
+![Lean UX Canvas](../assets/img/lean-ux-canvas.png)
