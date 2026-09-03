@@ -120,3 +120,40 @@ Planteamos que las siguientes capacidades del producto resolverán los problemas
 A continuación, se presenta el Lean UX Canvas que consolida las decisiones estratégicas de negocio, usuarios, funcionalidades e hipótesis priorizadas para el desarrollo de la solución:
 
 ![Lean UX Canvas](../assets/img/lean-ux-canvas.png)
+
+## 1.3. Segmentos objetivo
+
+El éxito de la solución propuesta radica en el entendimiento profundo de los actores clave que interactúan en la cadena de valor de la papa y el café en el Perú. A continuación, se describen de manera detallada los tres segmentos objetivo identificados, delimitando sus perfiles demográficos, necesidades operativas y el sustento estadístico oficial que valida su relevancia en el mercado nacional:
+
+### 1. Pequeños y medianos agricultores independientes de papa y café
+*   **Descripción del segmento:** Productores familiares e independientes que conducen parcelas de mediana y pequeña escala (generalmente de 1 a 10 hectáreas). Dependen de la agricultura de subsistencia o comercialización en mercados locales. Carecen de herramientas de tecnificación de campo y gestionan sus costos de forma empírica en cuadernos físicos o mediante registros memorísticos.
+*   **Perfil demográfico:**
+  *   **Edad promedio:** Entre 20 y 60 años.
+  *   **Ubicación geográfica:** Zonas andinas (Junín, Cusco, Ayacucho, Apurímac) para papa; y ceja de selva (Pasco, Selva Central, San Martín, Cajamarca) para café.
+  *   **Nivel educativo:** Primaria o secundaria (completa o incompleta).
+  *   **Acceso tecnológico:** Teléfonos inteligentes con conectividad móvil intermitente (redes 3G/4G) y uso habitual de aplicaciones de mensajería (WhatsApp).
+*   **Sustento estadístico oficial:**
+  *   En el Perú se siembran más de **330,000 hectáreas de papa** anualmente, de las cuales más del **90%** se cultivan bajo secano (dependencia total de lluvias), lo que expone a los agricultores independientes a pérdidas extremas de hasta un **40% de su rendimiento** debido a anomalías climáticas (heladas y sequías) ([MIDAGRI, 2023](https://www.gob.pe/midagri)).
+  *   Según la Encuesta Nacional Agropecuaria, la brecha de tecnificación es severa: el **93.3%** de los productores independientes en el país trabaja de manera informal y no pertenece a ninguna organización agraria ([INEI, 2022](https://m.inei.gob.pe/prensa/noticias/334-de-los-productores-agropecuarios-del-pais-son-mujeres-14486/)).
+
+### 2. Productores organizados y directivos de cooperativas agrícolas
+*   **Descripción del segmento:** Gerentes generales, jefes de acopio, directores comerciales y líderes de asociaciones agrarias. Tienen la responsabilidad de centralizar la producción de decenas de socios, estandarizar los niveles de calidad para la venta mayorista, y certificar el origen del cultivo para cumplir con las regulaciones de los mercados nacionales y de exportación.
+*   **Perfil demográfico:**
+  *   **Edad promedio:** Entre 35 y 55 años.
+  *   **Ubicación geográfica:** Oficinas administrativas de cooperativas en cabeceras de cuenca o valles agrícolas principales.
+  *   **Nivel educativo:** Técnico o universitario (Administración, Ingeniería Agrónoma, Comercio Exterior).
+  *   **Acceso tecnológico:** Computadora de escritorio/laptop en oficina con conexión estable de internet, navegación diaria en navegadores web y uso de hojas de cálculo (Excel) para control financiero.
+*   **Sustento estadístico oficial:**
+  *   La caficultura en el Perú sostiene a más de **223,000 familias** distribuidas en más de **380,000 hectáreas** ([Junta Nacional del Café, 2022](https://juntadelcafe.org.pe/)).
+  *   Los directivos de estas cooperativas se enfrentan a un mercado global altamente competitivo e informal; las exigencias de trazabilidad ambiental de la Unión Europea y la falta de certificaciones estandarizadas en origen desvalorizan el grano peruano, impidiendo acceder a los sobreprecios de especialidad que los mercados internacionales ofrecen por atributos cualitativos.
+
+### 3. Ingenieros agrónomos y asesores técnicos de campo
+*   **Descripción del segmento:** Profesionales independientes o contratados por cooperativas y ONGs dedicados al extensionismo agrícola, diagnóstico fitosanitario, prescripción de fertilización y asistencia técnica en el campo. Tienen el reto de supervisar decenas de parcelas dispersas geográficamente, lo que limita su capacidad de dar un seguimiento oportuno en fases críticas.
+*   **Perfil demográfico:**
+  *   **Edad promedio:** Entre 25 y 50 años.
+  *   **Ubicación geográfica:** Movilización constante entre valles agrícolas y fundos rurales.
+  *   **Nivel educativo:** Universitario completo (Ingeniería Agrónoma, Agrícola o Forestal).
+  *   **Acceso tecnológico:** Smartphone de gama media/alta con GPS integrado, uso de aplicaciones de mapas y herramientas web para redactar informes de visitas de campo.
+*   **Sustento estadístico oficial:**
+  *   En el territorio nacional existe una alarmante brecha en la transferencia de conocimiento: **solo el 3.8% de los productores agrícolas recibe asistencia técnica especializada** y apenas el **6.6%** accede a capacitaciones formales ([INEI, 2022](https://m.inei.gob.pe/prensa/noticias/334-de-los-productores-agropecuarios-del-pais-son-mujeres-14486/)).
+  *   Esta bajísima tasa de cobertura obliga a los pocos asesores de campo activos a optimizar drásticamente sus tiempos de traslado, requiriendo tecnologías de monitoreo remoto satelital que les permitan diagnosticar anomalías fitosanitarias de forma preventiva en múltiples parcelas dispersas sin necesidad de realizar visitas físicas recurrentes.
