@@ -47,10 +47,10 @@ Para sustentar la formulación del problema y la propuesta de valor, se aplica l
     - **Impacto socioeconómico en la caficultura:** Más de 223,000 familias dependen del café distribuido en más de 380,000 hectáreas ([Junta Nacional del Café, 2022](https://juntadelcafe.org.pe/)). La proliferación de plagas por variaciones térmicas y la falta de trazabilidad hacia la Unión Europea y Norteamérica desvalorizan el grano, impidiendo capturar el diferencial de precios que ofrecen los cafés de especialidad.
     - **Brecha de tecnificación y asociatividad:** Según la Encuesta Nacional Agropecuaria (ENA), solo el 3.8% de los productores agropecuarios en el país recibe asistencia técnica especializada, apenas el 6.6% accede a programas de capacitación y el 93.3% no pertenece a ninguna organización agraria ([INEI, 2022](https://m.inei.gob.pe/prensa/noticias/334-de-los-productores-agropecuarios-del-pais-son-mujeres-14486/)), perpetuando la gestión informal y la venta a pérdida.
 
-### 1.2.2 Lean UX Process
-#### 1.2.2.1. Lean UX Problem Statements
-#### 1.2.2.2. Lean UX Assumptions
-#### 1.2.2.3. Lean UX Hypothesis Statements
-#### 1.2.2.4. Lean UX Canvas
+### 1.2.2. Lean UX Process
 
-## 1.3. Segmentos objetivo
+El enfoque Lean UX permite validar de manera temprana las soluciones propuestas centrándose en el valor real entregado a los usuarios y al negocio. Mediante este marco de trabajo ágil, el equipo explicita de forma transparente la visión del modelo de negocio, formula hipótesis comprobables y minimiza el riesgo tecnológico y financiero en la gestión de cultivos críticos como la papa y el café en el territorio peruano.
+
+#### 1.2.2.1. Lean UX Problem Statements
+
+The current state of the Peruvian agricultural domain—specifically within the potato and specialty coffee value chains—has focused mainly on small and medium independent farmers, organized cooperative leaders, and field agricultural advisors who face high crop loss due to climatic anomalies, empirical operational cost management, and lack of verifiable crop quality certification. What existing products/services fail to address is an accessible, software-only precision agriculture platform that eliminates the necessity for expensive on-field IoT hardware while integrating satellite crop monitoring, unit cost tracking, and standardized harvest scoring. Our product/service will address this gap by providing an accessible web platform with satellite vegetative analysis, lot-level cost calculation, and digital quality certification. Our initial focus will be small and medium independent producers and cooperative leaders in Andean and high-jungle agricultural valleys. We’ll know we are successful when we see sustained active lot registration by agricultural producers, a measurable reduction in reported seasonal crop losses, and widespread adoption of digital cost records during commercial 
