@@ -302,18 +302,29 @@ A través de este análisis, establecemos tácticas ofensivas para explotar nues
 
 ## 2.2. Entrevistas
 ### 2.2.1. Diseño de entrevistas
-Se elaboraron guiones semiestructurados adaptados a las necesidades y contextos de los tres segmentos principales:
+Para garantizar un proceso de investigación de usuarios (*User Research*) riguroso y estructurado, hemos diseñado guías de entrevista semiestructuradas divididas en dos grandes bloques. El primero recopila datos demográficos y de contexto digital aplicables a cualquier entrevistado; el segundo aborda preguntas específicas y profundas adaptadas a los dolores, responsabilidades y dinámicas operativas de cada segmento objetivo.
+
+#### Bloque 1: Preguntas Generales 
+
+Este cuestionario inicial estandariza la recolección de metadatos demográficos clave y evalúa la madurez digital base de los usuarios en su entorno habitual:
+1. **Identificación básica:** ¿Cuál es su nombre completo, su edad y a qué se dedica principalmente en el día a día?
+2. **Contexto geográfico:** ¿En qué distrito o localidad vive actualmente, y en qué zonas específicas se encuentran sus campos de cultivo u oficinas administrativas?
+3. **Trayectoria:** ¿Cuántos años de experiencia tiene trabajando en el sector agrícola (ya sea en campo, gestión o asesoría)?
+4. **Acceso tecnológico:** ¿Qué tipo de teléfono celular utiliza diariamente (marca/gama) y qué aplicaciones (como WhatsApp, Facebook, banca móvil) abre con mayor frecuencia?
+5. **Conectividad en campo:** ¿Cómo describiría la señal de internet o datos móviles cuando se encuentra trabajando en sus parcelas o rutas habituales?
+
+
+#### Bloque 2: Preguntas Específicas por Segmento Objetivo
 
 #### 1. Pequeños y medianos agricultores independientes de papa y café:
-
 - ¿Cómo decide qué precio inicial pedir por su cosecha antes de negociar con el acopiador o intermediario?
 - ¿Alguna vez ha perdido gran parte de su cultivo por una helada o sequía, y cómo calculó la cantidad exacta de dinero que perdió?
 - ¿Qué tan seguido tiene señal estable de internet o datos en su teléfono móvil mientras se encuentra trabajando dentro de su parcela?
 - Si una herramienta en su celular le enviara alertas sobre su cultivo, ¿la utilizaría usted mismo o dependería de un familiar más joven para revisarla?
 - ¿De dónde obtiene normalmente el financiamiento o los préstamos para comprar los fertilizantes al inicio de la campaña?
 
-#### 2. Productores organizados y directivos de cooperativas agrícolas:
 
+#### 2. Productores organizados y directivos de cooperativas agrícolas:
 - ¿Qué canales o métodos utilizan actualmente para advertir de forma masiva y rápida a todos sus socios cuando hay una amenaza climática regional?
 - ¿Cómo incentivan o penalizan económicamente a los productores basándose en la evaluación de calidad (calibre o perfil de taza) al momento del acopio?
 - ¿Cuál consideran que es la mayor barrera (cultural, económica o de infraestructura) para que sus socios dejen de usar papel y adopten registros digitales?
@@ -321,7 +332,6 @@ Se elaboraron guiones semiestructurados adaptados a las necesidades y contextos 
 - ¿Estaría la cooperativa dispuesta a asumir el costo de una plataforma tecnológica si esta garantiza reducir el tiempo de las auditorías de certificación?
 
 #### 3. Ingenieros agrónomos y asesores técnicos de campo:
-
 - ¿Cuál es el límite máximo de hectáreas o productores que un solo asesor puede supervisar eficientemente con los métodos tradicionales actuales?
 - ¿Qué aplicaciones genéricas (WhatsApp, Excel, Google Maps) o herramientas digitales utiliza hoy en día para intentar organizar y documentar su trabajo diario?
 - ¿Cómo reporta o demuestra a la gerencia de la cooperativa que sus visitas preventivas realmente salvaron parte del rendimiento de un lote?
